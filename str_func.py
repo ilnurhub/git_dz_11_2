@@ -1,12 +1,12 @@
-def upper_str(my_str):
+def upper_str(text):
     """
     Функция, принимающая на вход строку и возвращаюшая ее со всеми заглавными буквами
     """
-    return my_str.upper()
+    return text.upper()
 
 
-def capitalize_words(my_str):
+def capitalize_words(text):
     """
     Функция, делающая заглавными первые буквы каждого слова в строке
     """
-    return ' '.join(word.capitalize() for word in my_str.split())
+    return ' '.join(word.capitalize() for word in text.split())
